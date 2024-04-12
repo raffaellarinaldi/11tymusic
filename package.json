@@ -1,0 +1,26 @@
+{
+  "name": "11tymusic",
+  "version": "1.0.0",
+  "description": "Starter 11ty installation for all music projects by Raffaella Rinaldi",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./node_modules"
+  },
+  "author": "Raffaella Rinaldi",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raffaellarinaldi/11tymusic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raffaellarinaldi/11tymusic/issues"
+  },
+  "homepage": "https://github.com/raffaellarinaldi/11tymusic#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "rss-to-json": "^2.1.1",
+    "spotify-web-api-node": "^5.0.2",
+    "ytpl": "^2.3.0"
+  }
+}
